@@ -1,0 +1,44 @@
+.container1{
+    width: 635px;
+    height: 475px;
+    border: 1px solid;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 403px;
+}
+.container2{
+    width: 635px;
+    height: 259px;
+    border: 1px solid;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.square{
+    width: 318px;
+    height: 258px;
+    border: 1px solid;
+     
+}
+.rectangle{
+    width: 237px;
+    height: 48px;
+    border: 1px solid;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+.container3{
+    width: 634px;
+    height: 213px;
+    border: 1px solid;
+}
+.text1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    color: #2AB3B1;
+    margin-left: 30px;
+}
+
+
