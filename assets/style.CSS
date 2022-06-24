@@ -25,7 +25,7 @@ body {
 .square {
   width: 318px;
   height: 258px;
-  background-color: #4ABEBD;
+  background-color: #4abebd;
 }
 .rectangle2 {
   width: 237px;
@@ -94,7 +94,7 @@ body {
   margin-left: 40px;
   line-height: 37.41px;
 }
-#subtext{
+#subtext {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: -0.2px;
@@ -102,32 +102,32 @@ body {
   color: white;
   mix-blend-mode: normal;
   opacity: 0.5;
-  position:absolute;
+  position: absolute;
   margin-top: 6px;
   margin-left: 20px;
   line-height: 26px;
 }
-#text6{
+#text6 {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: -0.2px;
-  font-family: 'Karla';
+  font-family: "Karla";
   font-style: normal;
   color: white;
-  mix-blend-mode:normal ;
+  mix-blend-mode: normal;
   line-height: 26px;
   margin-left: 40px;
 }
-#stext1{
+#stext1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 21.04px;
   letter-spacing: -0.22px;
-  font-family: 'Karla';
-  color:white;
+  font-family: "Karla";
+  color: white;
   margin-left: 40px;
 }
-#stext2{
+#stext2 {
   width: 238px;
   height: 140px;
   font-weight: 400;
@@ -137,10 +137,10 @@ body {
   color: white;
   margin-left: 40px;
   opacity: 0.75;
-  font-family: 'Karla';
+  font-family: "Karla";
   margin-top: 30px;
 }
-.rectangle2:hover{
+.rectangle2:hover {
   cursor: pointer;
   background-color: #a9b478;
 }
