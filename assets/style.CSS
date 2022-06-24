@@ -10,7 +10,6 @@ body {
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
-  border: 1px solid;
 }
 .container2 {
   width: 635px;
@@ -21,13 +20,12 @@ body {
   background-color: #2ab3b1;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  border: 1px solid;
   margin-bottom: 400px;
 }
 .square {
   width: 318px;
   height: 258px;
-  border: 1px solid;
+  background-color: #4ABEBD;
 }
 .rectangle2 {
   width: 237px;
@@ -35,7 +33,7 @@ body {
   background-color: #c0df33;
   color: white;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
-  margin-top: 180px;
+  margin-top: 10px;
   margin-left: 40px;
   border-color: #c0df33;
   border-radius: 5px;
@@ -46,7 +44,6 @@ body {
   background-color: #ffffff;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border: 1px solid;
 }
 #text1 {
   font-weight: 700;
@@ -56,6 +53,7 @@ body {
   color: #2ab3b1;
   margin-left: 40px;
   letter-spacing: -0.3px;
+  line-height: 28.06px;
 }
 #text2 {
   font-size: 18px;
@@ -73,11 +71,11 @@ body {
   letter-spacing: -0.2px;
   color: #9aa7be;
   margin-left: 40px;
+  line-height: 21.04px;
 }
 .square2 {
   width: 318px;
   height: 258px;
-  border: 1px solid;
 }
 #text4 {
   font-weight: 700;
@@ -88,6 +86,15 @@ body {
   margin-left: 40px;
 }
 #text5 {
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.4px;
+  font-family: "Karla";
+  color: white;
+  margin-left: 40px;
+  line-height: 37.41px;
+}
+#subtext{
   font-weight: 400;
   font-size: 16px;
   letter-spacing: -0.2px;
@@ -95,11 +102,45 @@ body {
   color: white;
   mix-blend-mode: normal;
   opacity: 0.5;
+  position:absolute;
+  margin-top: 6px;
+  margin-left: 20px;
+  line-height: 26px;
 }
-#text6 {
-  font-weight: 700;
-  font-size: 32px;
-  letter-spacing: -0.4px;
-  font-family: "Karla";
+#text6{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  font-family: 'Karla';
+  font-style: normal;
   color: white;
+  mix-blend-mode:normal ;
+  line-height: 26px;
+  margin-left: 40px;
+}
+#stext1{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.04px;
+  letter-spacing: -0.22px;
+  font-family: 'Karla';
+  color:white;
+  margin-left: 40px;
+}
+#stext2{
+  width: 238px;
+  height: 140px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.17;
+  color: white;
+  margin-left: 40px;
+  opacity: 0.75;
+  font-family: 'Karla';
+  margin-top: 30px;
+}
+.rectangle2:hover{
+  cursor: pointer;
+  background-color: #a9b478;
 }
